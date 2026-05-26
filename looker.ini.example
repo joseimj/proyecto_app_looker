@@ -1,0 +1,20 @@
+# ============================================================================
+# looker.ini.example
+# ----------------------------------------------------------------------------
+# Copia este archivo como looker.ini y rellénalo con los datos de TU instancia.
+# NO subas looker.ini a control de versiones (añádelo a .gitignore).
+#
+# Para obtener client_id y client_secret:
+#   En Looker -> Admin -> Users -> tu usuario de API -> Edit Keys -> New API3 Key
+#
+# base_url usa el puerto de la API (normalmente :19999 en instancias clásicas;
+# en Looker (Google Cloud core) suele ser https://TU-INSTANCIA.looker.app sin
+# puerto explícito; revisa la documentación de tu instancia).
+# ============================================================================
+
+[Looker]
+base_url=https://TU-INSTANCIA.cloud.looker.com:19999
+client_id=TU_CLIENT_ID
+client_secret=TU_CLIENT_SECRET
+verify_ssl=True
+timeout=120

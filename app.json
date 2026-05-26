@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "Ventas en Campo",
+    "slug": "looker-field-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0f1b2d",
+    "splash": {
+      "backgroundColor": "#0f1b2d",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tuempresa.ventascampo"
+    },
+    "android": {
+      "package": "com.tuempresa.ventascampo"
+    }
+  }
+}
