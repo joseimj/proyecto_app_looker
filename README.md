@@ -11,8 +11,8 @@ Es **un punto de partida** funcional, no un producto terminado (ver
 
 ```
    ┌─────────────┐   HTTPS    ┌──────────────┐   API Looker   ┌──────────┐
-   │  App móvil   │ ─────────▶ │   Backend     │ ─────────────▶ │  Looker   │
-   │ (Expo / RN)  │            │ (Flask + SDK) │                │           │
+   │  App móvil  │ ─────────▶ │   Backend    │ ─────────────▶ │  Looker  │
+   │ (Expo / RN) │            │(Flask + SDK) │                │          │
    └─────────────┘            └──────────────┘                └──────────┘
         │
         └─▶ Guarda el snapshot en almacenamiento NATIVO del dispositivo
